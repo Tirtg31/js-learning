@@ -31,3 +31,14 @@ console.log(users[2].email); //ghi@amazon.com
 
 console.log(Object.keys(obj1)); //returns the keys of the object u mentioned in form of ARRAYS
 console.log(Object.values(obj1)); //returns the values of the object u mentioned in form of ARRAYS
+
+//---------------------------------------------------------------------------------------------------------
+ 
+//Destructuring
+const course={
+    name:"Javascript",
+    price:"999",
+    instructor:"Tirt"
+}
+const {instructor}=course   //instead of using "course.instructor".
+console.log("Course instructor is",instructor);
